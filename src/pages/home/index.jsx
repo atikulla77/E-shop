@@ -1,7 +1,7 @@
 import { Button } from 'antd'
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import Container from '../../globalComponents/container'
+import Container from '../../globalComponents/Container'
 
 const Home = () => {
   return (
