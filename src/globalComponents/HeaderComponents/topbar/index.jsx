@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../../Container";
 import NumberAndAddress from "./NumberAndAddress";
+import SocialWithLang from "./SocialWithLang";
 
 const Topbar = () => {
   return (
@@ -8,7 +9,7 @@ const Topbar = () => {
       <Container>
         <div className="grid grid-cols-2 justify-between">
           <NumberAndAddress />
-          <div>right</div>
+          <SocialWithLang />
         </div>
       </Container>
     </div>
