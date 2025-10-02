@@ -2,7 +2,7 @@ import { Dropdown, Space } from "antd";
 import { useTranslation } from "react-i18next";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { categoriesItems } from "./CategoriesItems";
+import { categoriesItems } from "./categoriesItems";
 
 const AllCategorieManu = () => {
   const { t } = useTranslation();
