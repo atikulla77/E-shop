@@ -3,5 +3,8 @@
     "search_products_...": "Search Products ...",
     "Cart": "Cart",
     "User": "User",
-    "Account": "Account"
+    "Account": "Account",
+    "Blog": "Blog", 
+    "Contact": "Contact",
+    "AllCategory": "AllCategory"
 }

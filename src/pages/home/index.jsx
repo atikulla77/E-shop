@@ -1,8 +1,8 @@
 import { Button } from 'antd'
 import React from 'react'
-import { Helmet } from 'react-helmet'
 import Container from '../../globalComponents/Container'
 import { useTranslation } from 'react-i18next'
+import { Helmet } from 'react-helmet-async'
 
 const Home = () => {
   const {t} = useTranslation()
