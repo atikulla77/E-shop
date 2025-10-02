@@ -19,6 +19,9 @@ export const categoriesItems = [
       key: "0",
     },
     {
+      type: "divider"
+    },
+    {
       label: (
         <Link
           to={"/product"}
@@ -28,6 +31,9 @@ export const categoriesItems = [
         </Link>
       ),
       key: "1",
+    },
+        {
+      type: "divider"
     },
     {
       label: (
@@ -40,6 +46,9 @@ export const categoriesItems = [
       ),
       key: "2",
     },
+        {
+      type: "divider"
+    },
     {
       label: (
         <Link
@@ -50,6 +59,9 @@ export const categoriesItems = [
         </Link>
       ),
       key: "3",
+    },
+        {
+      type: "divider"
     },
     {
       label: (
@@ -62,6 +74,9 @@ export const categoriesItems = [
       ),
       key: "4",
     },
+        {
+      type: "divider"
+    },
     {
       label: (
         <Link
@@ -72,6 +87,9 @@ export const categoriesItems = [
         </Link>
       ),
       key: "5",
+    },
+        {
+      type: "divider"
     },
     {
       label: (

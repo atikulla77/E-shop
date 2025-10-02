@@ -2,15 +2,16 @@ import React from 'react'
 import Container from '../../Container'
 import { Logo } from '../../../assets/svg/logo'
 import SearchWithAuth from './SearchWithAuth'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <Container>
         <div className='grid grid-cols-2 justify-between items-center py-[22px]'>
 
-            <div>
+            <Link to={'/'}>
                 <Logo />
-            </div>
+            </Link>
             <div>
                 <SearchWithAuth />
             </div>

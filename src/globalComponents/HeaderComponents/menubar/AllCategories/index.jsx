@@ -12,7 +12,7 @@ const AllCategorieManu = () => {
     <div>
       <Dropdown menu={{ items: categoriesItems }} trigger={["click"]}>
         <a onClick={(e) => e.preventDefault()}>
-          <Space className="font-montserrat font-bold text-base cursor-pointer">
+          <Space className="font-montserrat font-[600] text-base cursor-pointer">
             <FaBars />
             {t("AllCategory")}
           </Space>
